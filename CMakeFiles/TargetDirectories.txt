@@ -1,0 +1,3 @@
+C:/workspace/CChess/CMakeFiles/main.dir
+C:/workspace/CChess/CMakeFiles/ALL_BUILD.dir
+C:/workspace/CChess/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,5 @@
+cmake ./build/CMakeLists.txt
+cmake --build main.c
+cd Debug
+main.exe
+cd ..
