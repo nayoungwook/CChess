@@ -1,0 +1,21 @@
+#ifndef GAME_H
+#define GAME_H
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define BOARD_WIDTH 8
+#define BOARD_HEIGHT 8
+
+enum PieceType {
+  Pawn, Knight, Bishop, Rock, Queen, King
+};
+
+typedef struct {
+  enum PieceType type;
+  int col, row;
+} Piece;
+
+Piece *board[BOARD_WIDTH][BOARD_HEIGHT];
+
+#endif

@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void render_board();
+#include "game.h"
+
+void render_board(Piece *board[BOARD_WIDTH][BOARD_HEIGHT]);
 
 #endif

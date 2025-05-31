@@ -3,7 +3,9 @@
 int main(){
   printf("Welcome to CChess.");
 
-  render_board();
+  initialize_board();
+
+  render_board(board);
   
   return 0;
 }
