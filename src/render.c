@@ -3,10 +3,7 @@
 void render_board(Piece *board[BOARD_WIDTH][BOARD_HEIGHT]){
   int i, j;
 
-  printf("\n\n ");
-  for(i=1; i<=BOARD_WIDTH; i++){
-    printf("%c ", i + 96);
-  }
+  printf("\n");
   
   for(i=1; i<=BOARD_HEIGHT; i++){
     printf("\n%d", i);
@@ -72,4 +69,10 @@ void render_board(Piece *board[BOARD_WIDTH][BOARD_HEIGHT]){
       printf(" ");
     }
   }
+  
+  printf("\n ");
+  for(i=1; i<=BOARD_WIDTH; i++){
+    printf("%c ", i + 96);
+  }
+
 }
