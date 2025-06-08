@@ -5,17 +5,13 @@ void render_board(Piece *board[BOARD_WIDTH][BOARD_HEIGHT]){
 
   printf("\n");
   
-  for(i=1; i<=BOARD_HEIGHT; i++){
+  for(i=BOARD_HEIGHT; i>0; i--){
     printf("\n%d", i);
 
     for(j=1; j<=BOARD_WIDTH; j++){
       Piece *piece = board[j][i];
       
       if(piece == NULL){
-	if(j == 1){
-	  // printf(" ");
-	}
-	
 	if((i + j) % 2 == 0){
 	  printf("■");
 	}else{

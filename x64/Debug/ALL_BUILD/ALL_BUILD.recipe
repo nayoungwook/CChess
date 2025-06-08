@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\workspace\CChess\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\Workspace\CChess\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\workspace\CChess\Debug\main.exe</FullPath>
+      <FullPath>D:\Workspace\CChess\Debug\main.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\workspace\CChess\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>D:\Workspace\CChess\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

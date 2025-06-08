@@ -1,6 +1,6 @@
-^C:\WORKSPACE\CCHESS\BUILD\CMAKELISTS.TXT
+^D:\WORKSPACE\CCHESS\BUILD\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/workspace/CChess/build -BC:/workspace/CChess --check-stamp-file C:/workspace/CChess/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Workspace/CChess/build -BD:/Workspace/CChess --check-stamp-file D:/Workspace/CChess/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

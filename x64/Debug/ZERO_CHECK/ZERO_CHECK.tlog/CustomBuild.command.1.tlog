@@ -1,6 +1,6 @@
-^C:\WORKSPACE\CCHESS\CMAKEFILES\7DB7203BDF4858DBF05D64E973D9C6CA\GENERATE.STAMP.RULE
+^D:\WORKSPACE\CCHESS\CMAKEFILES\E6322B8A25B660C64F936DA79AF7A4C2\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/workspace/CChess/build -BC:/workspace/CChess --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/workspace/CChess/CChess.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Workspace/CChess/build -BD:/Workspace/CChess --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Workspace/CChess/CChess.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

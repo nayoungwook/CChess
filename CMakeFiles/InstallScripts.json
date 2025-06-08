@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/workspace/CChess/cmake_install.cmake"
+		"D:/Workspace/CChess/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
